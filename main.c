@@ -11,6 +11,7 @@ int main(void)
   scanf("%d",&dim);
   putchar('\n');
 
+  // Allocazione dinamica di un array di interi //
   Array = malloc(dim*sizeof(int));
   assert(Array != NULL);
 
